@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffa500;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('tools-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cta-button {
+    background-color: #ffa500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #e69500;
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.about img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* Services Section */
+.services {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input, 
+.contact textarea {
+    padding: 10px;
+    border: 2px solid #003366;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.contact button:hover {
+    background-color: #002244;
+}
+
+/* Footer */
+.footer {
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
